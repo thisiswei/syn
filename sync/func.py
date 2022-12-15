@@ -71,7 +71,7 @@ if __name__ == '__main__':
         df = _add_ts(df_x1_test)
         predicted = (var.predict(df[['ts', 'Adj Close']]))
         predicted['date'] = df['Date'].values
-        path = '/tmp/varmax_predicted.csv'
+        path = '/tmp/y.csv'
         predicted.to_csv(path)
         print('csv file saved in here: {}'.format(path))
 
