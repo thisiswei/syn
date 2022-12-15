@@ -1,8 +1,7 @@
-
 #### Run
 
 
-- `git clone git@github.com:thisiswei/syn.git;`
+- `git clone git@github.com:thisiswei/sync.git;`
 - `cd sync`
 - `pip install -r requirements.txt`
-- `python func.py`
+- `cd sync; python func.py`
